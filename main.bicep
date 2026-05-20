@@ -21,7 +21,7 @@ var vmssComputerPrefix = 'vmsslab'
 
 // Sandbox allowlist SKU. Compute-optimized, non-burstable — B-series throttles under sustained
 // stress-ng load. Peak: 1 baseline + 3 VMSS = 8 vCPU (cap 10), 4 GB/instance (cap 14).
-var vmSize = 'Standard_F2'
+var vmSize = 'Standard_D2s_v3'
 
 // Autoscale max in Objective 2 is 3 (sandbox per-scale-set ceiling).
 var vmssCapacity = 2
